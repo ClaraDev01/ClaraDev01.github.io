@@ -31,7 +31,7 @@ section {
     margin: 0 auto;
 }
 
-section:nth-of-type(even) { 
+#in-progress, #projects {
     background-color: #1a1a1a;
 }
 
@@ -56,6 +56,21 @@ section:nth-of-type(even) {
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px; 
+}
+
+.empty-status {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #2a2a2a; 
+    border: 1px solid #bb9af780; 
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #f0f0f0;
+    font-style: italic;
+}
+
+.empty-status p {
+    margin: 0; 
 }
 
 .project-item a:hover {
